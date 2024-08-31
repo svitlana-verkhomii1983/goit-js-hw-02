@@ -1,4 +1,5 @@
 function formatMessage(message, maxLength) {
+    
     if (message.length <= maxLength) {
        return message; // Якщо так, повертаємо повідомлення без змін
     } else {
