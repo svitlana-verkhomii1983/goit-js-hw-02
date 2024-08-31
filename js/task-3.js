@@ -1,6 +1,6 @@
 function checkForSpam(message) {
 
-  const lowerCaseMessage = message.toLowerCase();  // Перетворюємо весь рядок на нижній регістр для простішої перевірки
+  const lowerCaseMessage = message.toLowerCase();  // Перетворюємо весь рядок на нижній регістр для простішої перевірки 
   return lowerCaseMessage.includes('spam') || lowerCaseMessage.includes('sale');
 }
 
